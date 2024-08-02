@@ -92,5 +92,7 @@ int main()
     insertNodeNthPos(&head, 13, 3);
     insertNodeNthPos(&head, 349, 4);
     insertNodeNthPos(&head, 213, 5);
+    deleteNodeKey(&head, 21);
+    deleteNodeKey(&head, 213);
     Print(&head);
 }
